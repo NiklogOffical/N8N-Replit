@@ -1,0 +1,15 @@
+{
+  "name": "n8n-replit-project",
+  "version": "1.0.0",
+  "description": "n8n deployment for Replit",
+  "main": "index.js",
+  "scripts": {
+    "start": "n8n start --host=0.0.0.0 --port=$PORT --tunnel"
+  },
+  "keywords": ["n8n", "workflow", "automation"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "n8n": "^1.90.2"
+  }
+} 
